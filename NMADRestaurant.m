@@ -2,7 +2,6 @@
 //  NMADRestaurant.m
 //  GPF-1
 //
-//  Created by Anthony Jefferson on 9/11/11.
 //  Copyright 2011 Rochester Institute of Technology. All rights reserved.
 //
 
