@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2224E7154CC8560006A9BF /* FavTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2224E5154CC8560006A9BF /* FavTableVC.m */; };
+		3F2224E8154CC8560006A9BF /* FavTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2224E6154CC8560006A9BF /* FavTableVC.xib */; };
+		3F5CD6A7154E0A840075EADD /* rest.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5CD6A6154E0A840075EADD /* rest.png */; };
+		3F5CD6A9154E0B000075EADD /* 48-fork-and-knife.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5CD6A8154E0B000075EADD /* 48-fork-and-knife.png */; };
+		3F5CD6AB154E0BE30075EADD /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F5CD6AA154E0BE30075EADD /* images.jpg */; };
+		3FCEAB6A154C99AF00B1135E /* LandmarksTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEAB68154C99AF00B1135E /* LandmarksTableVC.m */; };
+		3FCEAB6B154C99AF00B1135E /* LandmarksTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCEAB69154C99AF00B1135E /* LandmarksTableVC.xib */; };
+		3FCEAB70154C99D500B1135E /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEAB6E154C99D500B1135E /* AboutVC.m */; };
+		3FCEAB71154C99D500B1135E /* AboutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCEAB6F154C99D500B1135E /* AboutVC.xib */; };
+		3FCEAB74154C9A0F00B1135E /* 72-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCEAB72154C9A0F00B1135E /* 72-pin.png */; };
+		3FCEAB75154C9A0F00B1135E /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCEAB73154C9A0F00B1135E /* eye.png */; };
+		3FCEAB7C154C9EE200B1135E /* LandmarkDetailGroupedTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEAB7B154C9EE200B1135E /* LandmarkDetailGroupedTableVC.m */; };
+		3FCEAB7E154C9EEF00B1135E /* 59-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCEAB7D154C9EEF00B1135E /* 59-flag.png */; };
+		ACEAF42D14ACEB22003B421F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEAF42C14ACEB22003B421F /* UIKit.framework */; };
+		ACEAF42F14ACEB22003B421F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEAF42E14ACEB22003B421F /* Foundation.framework */; };
+		ACEAF43114ACEB22003B421F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEAF43014ACEB22003B421F /* CoreGraphics.framework */; };
+		ACEAF43714ACEB22003B421F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACEAF43514ACEB22003B421F /* InfoPlist.strings */; };
+		ACEAF43914ACEB22003B421F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAF43814ACEB22003B421F /* main.m */; };
+		ACEAF43D14ACEB23003B421F /* GPF_4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAF43C14ACEB23003B421F /* GPF_4AppDelegate.m */; };
+		ACEAF44D14ACEB73003B421F /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACEAF44714ACEB73003B421F /* data.plist */; };
+		ACEAF44E14ACEB73003B421F /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAF44914ACEB73003B421F /* MapVC.m */; };
+		ACEAF44F14ACEB73003B421F /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEAF44A14ACEB73003B421F /* MapVC.xib */; };
+		ACEAF45014ACEB73003B421F /* NMADRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAF44C14ACEB73003B421F /* NMADRestaurant.m */; };
+		ACEAF45314ACEC84003B421F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEAF45214ACEC84003B421F /* CoreLocation.framework */; };
+		ACEAF45514ACEC8E003B421F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEAF45414ACEC8E003B421F /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2224E4154CC8560006A9BF /* FavTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavTableVC.h; sourceTree = "<group>"; };
+		3F2224E5154CC8560006A9BF /* FavTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavTableVC.m; sourceTree = "<group>"; };
+		3F2224E6154CC8560006A9BF /* FavTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavTableVC.xib; sourceTree = "<group>"; };
+		3F5CD6A6154E0A840075EADD /* rest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rest.png; sourceTree = "<group>"; };
+		3F5CD6A8154E0B000075EADD /* 48-fork-and-knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "48-fork-and-knife.png"; sourceTree = "<group>"; };
+		3F5CD6AA154E0BE30075EADD /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		3FCEAB67154C99AF00B1135E /* LandmarksTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandmarksTableVC.h; sourceTree = "<group>"; };
+		3FCEAB68154C99AF00B1135E /* LandmarksTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandmarksTableVC.m; sourceTree = "<group>"; };
+		3FCEAB69154C99AF00B1135E /* LandmarksTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandmarksTableVC.xib; sourceTree = "<group>"; };
+		3FCEAB6D154C99D500B1135E /* AboutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutVC.h; sourceTree = "<group>"; };
+		3FCEAB6E154C99D500B1135E /* AboutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutVC.m; sourceTree = "<group>"; };
+		3FCEAB6F154C99D500B1135E /* AboutVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutVC.xib; sourceTree = "<group>"; };
+		3FCEAB72154C9A0F00B1135E /* 72-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "72-pin.png"; sourceTree = "<group>"; };
+		3FCEAB73154C9A0F00B1135E /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		3FCEAB7A154C9EE200B1135E /* LandmarkDetailGroupedTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandmarkDetailGroupedTableVC.h; sourceTree = "<group>"; };
+		3FCEAB7B154C9EE200B1135E /* LandmarkDetailGroupedTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandmarkDetailGroupedTableVC.m; sourceTree = "<group>"; };
+		3FCEAB7D154C9EEF00B1135E /* 59-flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-flag.png"; sourceTree = "<group>"; };
+		ACEAF42814ACEB22003B421F /* GPF-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPF-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEAF42C14ACEB22003B421F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACEAF42E14ACEB22003B421F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACEAF43014ACEB22003B421F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACEAF43414ACEB22003B421F /* GPF-4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPF-4-Info.plist"; sourceTree = "<group>"; };
+		ACEAF43614ACEB22003B421F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACEAF43814ACEB22003B421F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACEAF43A14ACEB22003B421F /* GPF-4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPF-4-Prefix.pch"; sourceTree = "<group>"; };
+		ACEAF43B14ACEB22003B421F /* GPF_4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPF_4AppDelegate.h; sourceTree = "<group>"; };
+		ACEAF43C14ACEB23003B421F /* GPF_4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPF_4AppDelegate.m; sourceTree = "<group>"; };
+		ACEAF44714ACEB73003B421F /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = data.plist; path = ../data.plist; sourceTree = "<group>"; };
+		ACEAF44814ACEB73003B421F /* MapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapVC.h; path = ../MapVC.h; sourceTree = "<group>"; };
+		ACEAF44914ACEB73003B421F /* MapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapVC.m; path = ../MapVC.m; sourceTree = "<group>"; };
+		ACEAF44A14ACEB73003B421F /* MapVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapVC.xib; path = ../MapVC.xib; sourceTree = "<group>"; };
+		ACEAF44B14ACEB73003B421F /* NMADRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NMADRestaurant.h; path = ../NMADRestaurant.h; sourceTree = "<group>"; };
+		ACEAF44C14ACEB73003B421F /* NMADRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NMADRestaurant.m; path = ../NMADRestaurant.m; sourceTree = "<group>"; };
+		ACEAF45214ACEC84003B421F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ACEAF45414ACEC8E003B421F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACEAF42514ACEB22003B421F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEAF45514ACEC8E003B421F /* MapKit.framework in Frameworks */,
+				ACEAF45314ACEC84003B421F /* CoreLocation.framework in Frameworks */,
+				ACEAF42D14ACEB22003B421F /* UIKit.framework in Frameworks */,
+				ACEAF42F14ACEB22003B421F /* Foundation.framework in Frameworks */,
+				ACEAF43114ACEB22003B421F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACEAF41D14ACEB22003B421F = {
+			isa = PBXGroup;
+			children = (
+				ACEAF43214ACEB22003B421F /* GPF-4 */,
+				ACEAF42B14ACEB22003B421F /* Frameworks */,
+				ACEAF42914ACEB22003B421F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEAF42914ACEB22003B421F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAF42814ACEB22003B421F /* GPF-4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACEAF42B14ACEB22003B421F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAF45414ACEC8E003B421F /* MapKit.framework */,
+				ACEAF45214ACEC84003B421F /* CoreLocation.framework */,
+				ACEAF42C14ACEB22003B421F /* UIKit.framework */,
+				ACEAF42E14ACEB22003B421F /* Foundation.framework */,
+				ACEAF43014ACEB22003B421F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACEAF43214ACEB22003B421F /* GPF-4 */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAF45714ACECB9003B421F /* view controllers */,
+				ACEAF45614ACECA3003B421F /* models */,
+				ACEAF43B14ACEB22003B421F /* GPF_4AppDelegate.h */,
+				ACEAF43C14ACEB23003B421F /* GPF_4AppDelegate.m */,
+				ACEAF43314ACEB22003B421F /* Supporting Files */,
+			);
+			path = "GPF-4";
+			sourceTree = "<group>";
+		};
+		ACEAF43314ACEB22003B421F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CD6AA154E0BE30075EADD /* images.jpg */,
+				3F5CD6A8154E0B000075EADD /* 48-fork-and-knife.png */,
+				3F5CD6A6154E0A840075EADD /* rest.png */,
+				3FCEAB7D154C9EEF00B1135E /* 59-flag.png */,
+				3FCEAB72154C9A0F00B1135E /* 72-pin.png */,
+				3FCEAB73154C9A0F00B1135E /* eye.png */,
+				ACEAF44714ACEB73003B421F /* data.plist */,
+				ACEAF43414ACEB22003B421F /* GPF-4-Info.plist */,
+				ACEAF43514ACEB22003B421F /* InfoPlist.strings */,
+				ACEAF43814ACEB22003B421F /* main.m */,
+				ACEAF43A14ACEB22003B421F /* GPF-4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACEAF45614ACECA3003B421F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				3FCEAB7A154C9EE200B1135E /* LandmarkDetailGroupedTableVC.h */,
+				3FCEAB7B154C9EE200B1135E /* LandmarkDetailGroupedTableVC.m */,
+				ACEAF44B14ACEB73003B421F /* NMADRestaurant.h */,
+				ACEAF44C14ACEB73003B421F /* NMADRestaurant.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		ACEAF45714ACECB9003B421F /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FCEAB6D154C99D500B1135E /* AboutVC.h */,
+				3FCEAB6E154C99D500B1135E /* AboutVC.m */,
+				3FCEAB6F154C99D500B1135E /* AboutVC.xib */,
+				3FCEAB67154C99AF00B1135E /* LandmarksTableVC.h */,
+				3FCEAB68154C99AF00B1135E /* LandmarksTableVC.m */,
+				3FCEAB69154C99AF00B1135E /* LandmarksTableVC.xib */,
+				ACEAF44814ACEB73003B421F /* MapVC.h */,
+				ACEAF44914ACEB73003B421F /* MapVC.m */,
+				ACEAF44A14ACEB73003B421F /* MapVC.xib */,
+				3F2224E4154CC8560006A9BF /* FavTableVC.h */,
+				3F2224E5154CC8560006A9BF /* FavTableVC.m */,
+				3F2224E6154CC8560006A9BF /* FavTableVC.xib */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACEAF42714ACEB22003B421F /* GPF-4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEAF44014ACEB23003B421F /* Build configuration list for PBXNativeTarget "GPF-4" */;
+			buildPhases = (
+				ACEAF42414ACEB22003B421F /* Sources */,
+				ACEAF42514ACEB22003B421F /* Frameworks */,
+				ACEAF42614ACEB22003B421F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPF-4";
+			productName = "GPF-4";
+			productReference = ACEAF42814ACEB22003B421F /* GPF-4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEAF41F14ACEB22003B421F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ACEAF42214ACEB22003B421F /* Build configuration list for PBXProject "GPF-4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACEAF41D14ACEB22003B421F;
+			productRefGroup = ACEAF42914ACEB22003B421F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEAF42714ACEB22003B421F /* GPF-4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEAF42614ACEB22003B421F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEAF43714ACEB22003B421F /* InfoPlist.strings in Resources */,
+				ACEAF44D14ACEB73003B421F /* data.plist in Resources */,
+				ACEAF44F14ACEB73003B421F /* MapVC.xib in Resources */,
+				3FCEAB6B154C99AF00B1135E /* LandmarksTableVC.xib in Resources */,
+				3FCEAB71154C99D500B1135E /* AboutVC.xib in Resources */,
+				3FCEAB74154C9A0F00B1135E /* 72-pin.png in Resources */,
+				3FCEAB75154C9A0F00B1135E /* eye.png in Resources */,
+				3FCEAB7E154C9EEF00B1135E /* 59-flag.png in Resources */,
+				3F2224E8154CC8560006A9BF /* FavTableVC.xib in Resources */,
+				3F5CD6A7154E0A840075EADD /* rest.png in Resources */,
+				3F5CD6A9154E0B000075EADD /* 48-fork-and-knife.png in Resources */,
+				3F5CD6AB154E0BE30075EADD /* images.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEAF42414ACEB22003B421F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEAF43914ACEB22003B421F /* main.m in Sources */,
+				ACEAF43D14ACEB23003B421F /* GPF_4AppDelegate.m in Sources */,
+				ACEAF44E14ACEB73003B421F /* MapVC.m in Sources */,
+				ACEAF45014ACEB73003B421F /* NMADRestaurant.m in Sources */,
+				3FCEAB6A154C99AF00B1135E /* LandmarksTableVC.m in Sources */,
+				3FCEAB70154C99D500B1135E /* AboutVC.m in Sources */,
+				3FCEAB7C154C9EE200B1135E /* LandmarkDetailGroupedTableVC.m in Sources */,
+				3F2224E7154CC8560006A9BF /* FavTableVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACEAF43514ACEB22003B421F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEAF43614ACEB22003B421F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACEAF43E14ACEB23003B421F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACEAF43F14ACEB23003B421F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACEAF44114ACEB23003B421F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPF-4/GPF-4-Prefix.pch";
+				INFOPLIST_FILE = "GPF-4/GPF-4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACEAF44214ACEB23003B421F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPF-4/GPF-4-Prefix.pch";
+				INFOPLIST_FILE = "GPF-4/GPF-4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACEAF42214ACEB22003B421F /* Build configuration list for PBXProject "GPF-4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEAF43E14ACEB23003B421F /* Debug */,
+				ACEAF43F14ACEB23003B421F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEAF44014ACEB23003B421F /* Build configuration list for PBXNativeTarget "GPF-4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEAF44114ACEB23003B421F /* Debug */,
+				ACEAF44214ACEB23003B421F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEAF41F14ACEB22003B421F /* Project object */;
+}
